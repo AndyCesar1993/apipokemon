@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/background.jpg);
+    background-size:contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.error{
+    background: red;
+    border-radius: 2rem;
+    padding: 3px 7px;
+    display: none;
+}
+
+.buscador{
+    display: flex;
+    gap: 0px;
+}
+
+.buscador input{
+    border-radius: 2rem 0px 0px 2rem;
+    background-color: rgba(177, 166, 166, 0.15);
+    border: 2px solid black;
+    border-right: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.buscador input::placeholder{
+    text-align: center;
+    padding: 3px;
+    color: black;
+}
+.buscador button{
+    border-radius: 0px 2rem 2rem 0px;
+    background-color: rgba(177, 166, 166, 0.15);
+    border-left: none;
+    padding: 3px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.render-html{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+    flex-wrap: wrap;
+    gap: 120px 15px;
+}
+
+.cards{
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px; 
+}
+
+.quitar{
+    margin-left: auto;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cards img{
+width: 200px;
+margin: auto ;
+}
+
+.cards h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.cards ul{
+    display: flex;
+    margin: auto;
+    gap:5px
+}
+
+.cards li{
+    list-style: none;
+}
+
+.cards li img{
+  width: 70px;
+}
+
+.cards h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cards small{
+    font-size: 17px;
+}
+
+  
