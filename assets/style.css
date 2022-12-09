@@ -5,13 +5,14 @@
 }
 
 body{
-    background-image: url(./img/background.jpg);
+    background-image: url(./img/background2.jpg);
     background-size:contain;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
     gap: 15px;
+    color: #fff;
 }
 
 .error{
@@ -29,7 +30,7 @@ body{
 .buscador input{
     border-radius: 2rem 0px 0px 2rem;
     background-color: rgba(177, 166, 166, 0.15);
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-right: none;
     text-align: center;
     font-size: 15px;
@@ -38,12 +39,14 @@ body{
 .buscador input::placeholder{
     text-align: center;
     padding: 3px;
-    color: black;
+    color: rgb(177, 177, 177);
 }
 .buscador button{
     border-radius: 0px 2rem 2rem 0px;
     background-color: rgba(177, 166, 166, 0.15);
+    border: 2px solid rgb(255, 255, 255);
     border-left: none;
+    color: #fff;
     padding: 3px;
     width: 30px;
     cursor: pointer;
@@ -54,15 +57,16 @@ body{
     justify-content: center;
     padding:30px;
     flex-wrap: wrap;
-    gap: 120px 15px;
+    gap: 120px 25px;
 }
 
 .cards{
-    border: 2px solid black;
+    background:url(./img/backgroundcard.jpg);
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    box-shadow: -5px -5px 30px 1px #fff;
     gap: 10px; 
 }
 
@@ -95,6 +99,12 @@ margin: auto ;
 
 .cards li img{
   width: 70px;
+}
+
+.tipo-nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cards h3{

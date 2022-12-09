@@ -25,7 +25,7 @@ const getPokemon= pokemon =>{
     <h3>Exp: <small>${pokemon.base_experience} </small></h3>
     <ul class="tipo">
     ${pokemon.types.map((tipo)=>{
-        return `<li><img src="./assets/img/tipos/${tipo.type.name}.png" alt=""></li>`
+        return `<li><div class="tipo-nombre"><img src="./assets/img/tipos/${tipo.type.name}.png" alt="">${tipo.type.name}</div></li>`
     }).join("")}        
     </ul>
     <h3>Altura: <small>${pokemon.height/10} m</small></h3>
