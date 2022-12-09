@@ -34,6 +34,7 @@ body{
     border-right: none;
     text-align: center;
     font-size: 15px;
+    color: #fff;
 }
 
 .buscador input::placeholder{
